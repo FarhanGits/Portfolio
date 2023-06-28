@@ -30,11 +30,11 @@
                 <li>
                     <a href="#services" class="hover:underline text-dark-default">Services</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#" class="hover:underline text-dark-default">Experience</a>
-                </li>
+                </li> -->
                 <li>
-                    <a href="#" class="hover:underline text-dark-default">My Work</a>
+                    <a href="#mywork" class="hover:underline text-dark-default">My Work</a>
                 </li>
             </ul>
             <a href="#" class="bg-yellow-default py-2 px-5 rounded-full shadow-lg text-dark-default hover:bg-dark-default hover:text-yellow-default">Contact Me</a>
@@ -66,8 +66,8 @@
             </section>
 
             <section class="w-1/2">
-                <p class="text-dark-default text-lg font-semibold mb-1">fun fact(?)</p>
-                <h1 class="text-dark-default text-4xl font-bold mb-9">About Me</h1>
+                <p class="text-dark-default text-xl font-semibold mb-1">fun fact(?)</p>
+                <h1 class="text-dark-default text-5xl font-bold mb-9">About Me</h1>
                 <p class="text-dark-default text-lg font-normal mb-3 whitespace-pre-line">Lorem ipsum dolor sit amet consectetur. Tortor lacinia pretium ultricies mollis sit lacus massa. Tortor in vel sapien tellus egestas sit id malesuada. Accumsan mauris mi nisl fames. Volutpat diam sit amet interdum elementum. Dui in ullamcorper rutrum risus vel eu et. Ut vitae tincidunt facilisis tincidunt ac. Id facilisis a cursus viverra nunc ipsum habitant pretium. Nisi eu sed justo arcu natoque purus lorem amet a. Integer rhoncus amet erat accumsan metus vulputate. Eget sit ultricies et arcu. Sagittis posuere cursus diam risus nibh mattis id nibh. Pharetra est mi nunc dictum mi mattis volutpat ipsum enim.
                 
                     Interdum sed quam non nulla enim posuere. Lectus et scelerisque proin faucibus vulputate cursus bibendum. Amet et eget cras arcu magna ut dictumst. Vitae justo sagittis ornare imperdiet fringilla tellus blandit eget. Convallis neque egestas id tempor nullam. Egestas aenean pellentesque augue odio. Orci consectetur a amet ut posuere ullamcorper amet eget mattis. Pulvinar porttitor turpis auctor lacus tortor tellus eget faucibus. Ultricies leo commodo eu vitae tellus scelerisque. Nisi ultrices duis nunc sed sed sit. Etiam vivamus dolor duis.
@@ -80,29 +80,83 @@
         <!-- Services -->
         <div id="services" class="px-20 py-10 mt-10 mb-10 flex flex-col items-center">
             <div class="flex items-baseline">
-                <h1 class="text-4xl font-bold mr-2 text-dark-default">Services</h1>
-                <p class="text-lg font-medium text-dark-default">(I offer..)</p>
+                <h1 class="text-5xl font-bold mr-2 text-dark-default">Services</h1>
+                <p class="text-xl font-medium text-dark-default">(I offer..)</p>
             </div>
-            <div class="flex">
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7">
+            <div class="flex justify-around">
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
                     <i class="fa-solid fa-display text-4xl mb-3"></i>
                     <h2 class="text-dark-default font-semibold text-xl mb-3">Fullstack Web Dev</h2>
                     <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
 
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7">
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
                     <i class="fa-solid fa-mobile-screen text-4xl mb-3"></i>
                     <h2 class="text-dark-default font-semibold text-xl mb-3">Front-end Mobile Dev</h2>
                     <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
 
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7">
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
                     <i class="fa-brands fa-dev text-4xl mb-3"></i>
                     <h2 class="text-dark-default font-semibold text-xl mb-3">DevOps Engineer</h2>
                     <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
             </div>
         </div>
+        <!-- Devider -->
+        <span class="w-1/2 h-px bg-dark-default flex"></span>
+
+        <!-- My Work -->
+        <div id="mywork" class="px-20 py-10 mt-10 mb-10 w-full">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p class="text-dark-default text-xl font-semibold mb-1">recent project</p>
+                    <h1 class="text-dark-default text-5xl font-bold mb-9">My Work</h1>
+                </div>
+                <a href="https://github.com/FarhanGits" target="_blank" class="py-2 px-3 flex items-center bg-yellow-default rounded-lg border-dark-default border">
+                    <i class="fa-brands fa-github mr-2"></i>
+                    <span>Visit My Github</span>
+                </a>
+            </div>
+
+            <section class="flex justify-between">
+                <div class="bg-white-default h-auto w-96 rounded-lg flex flex-col box-border border border-dark-default">
+                    <div class="relative h-52 overflow-hidden w-full">
+                        <img src="img/Mockup - Memo & Share.jpg" alt="my project" class="overflow-hidden w-full rounded-lg">
+                    </div>
+                    <div class="bg-white-default p-5 rounded-lg">
+                        <h2 class="text-xl font-semibold">Memo & Share</h2>
+                        <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
+                        <a href="" class="text-sm">Cek Disini</a>
+                    </div>
+                </div>
+
+                <div class="bg-white-default h-auto w-96 rounded-lg flex flex-col box-border border border-dark-default">
+                    <div class="relative h-52 overflow-hidden w-full">
+                        <img src="img/Mockup - Memo & Share.jpg" alt="my project" class="overflow-hidden w-full rounded-lg">
+                    </div>
+                    <div class="bg-white-default p-5 rounded-lg">
+                        <h2 class="text-xl font-semibold">Memo & Share</h2>
+                        <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
+                        <a href="" class="text-sm">Cek Disini</a>
+                    </div>
+                </div>
+
+                <div class="bg-white-default h-auto w-96 rounded-lg flex flex-col box-border border border-dark-default">
+                    <div class="relative h-52 overflow-hidden w-full">
+                        <img src="img/Mockup - Memo & Share.jpg" alt="my project" class="overflow-hidden w-full rounded-lg">
+                    </div>
+                    <div class="bg-white-default p-5 rounded-lg">
+                        <h2 class="text-xl font-semibold">Memo & Share</h2>
+                        <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
+                        <a href="" class="text-sm">Cek Disini</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Devider -->
+        <span class="w-full h-px bg-dark-default flex"></span>
+
     </div>
 </body>
 </html>
