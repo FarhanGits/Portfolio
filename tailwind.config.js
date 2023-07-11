@@ -12,6 +12,9 @@ module.exports = {
       height: {
         '90p': '90%',
       },
+      zIndex: {
+        'to-front': '999',
+      }
     },
   },
   plugins: [],

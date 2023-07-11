@@ -16,14 +16,14 @@
 </head>
 
 <body class="bg-white-default box-border">
-    <header class="w-full sticky top-0 bg-white-default shadow-md">
-        <nav class="flex px-20 py-5 justify-between items-center">
+    <header class="w-full sticky top-0 z-to-front bg-white-default shadow-md">
+        <nav class="flex px-20 py-5 justify-between items-center max-sm:px-10 max-sm:py-3">
             <div class="web-logo">
                 <a href="#home">
-                    <img src="img/logo_dfr-removebg-preview 1.png" class="w-14 h-auto" alt="">
+                    <img src="img/logo_dfr-removebg-preview 1.png" class="w-14 h-auto" alt="daffa farhan">
                 </a>
             </div>
-            <ul class="flex gap-12">
+            <ul class="flex gap-12 max-sm:hidden">
                 <li>
                     <a href="#about-me" class="hover:underline text-dark-default">About Me</a>
                 </li>
@@ -37,15 +37,15 @@
                     <a href="#mywork" class="hover:underline text-dark-default">My Work</a>
                 </li>
             </ul>
-            <a href="#" class="bg-yellow-default py-2 px-5 rounded-full shadow-lg text-dark-default hover:bg-dark-default hover:text-yellow-default">Contact Me</a>
+            <a href="#contact" class="bg-yellow-default py-2 px-5 rounded-full shadow-lg text-dark-default hover:bg-dark-default hover:text-yellow-default">Contact Me</a>
         </nav>
     </header>
 
     <div class="w-full flex justify-center flex-col items-center">
 
         <!-- Home -->
-        <div id="home" class="px-20 py-10 mb-10 w-full h-full flex items-center justify-between max-md:flex-col-reverse">
-            <section class="w-1/2">
+        <div id="home" class="px-20 py-10 mb-10 w-full h-full flex items-center justify-between max-sm:px-10 max-md:flex-col-reverse">
+            <section class="w-1/2 ">
                 <p class="text-dark-default text-base font-medium mb-9">Hello, I'm Daffa</p>
                 <h1 class="text-dark-default text-4xl font-medium mb-9">A DevOps Engineer (aamiin soon) and Mechanical Keyboard Enthusiast</h1>
                 <p class="text-dark-default text-base font-medium mb-14">Kadang kuliah, kadang nonton bola</p>
@@ -78,28 +78,28 @@
         <span class="w-1/2 h-px bg-dark-default flex"></span>
 
         <!-- Services -->
-        <div id="services" class="px-20 py-10 mt-10 mb-10 flex flex-col items-center">
+        <div id="services" class="px-20 py-10 mt-10 mb-10 flex flex-col items-center max-sm:px-10 max-sm:py-5">
             <div class="flex items-baseline">
-                <h1 class="text-5xl font-bold mr-2 text-dark-default">Services</h1>
-                <p class="text-xl font-medium text-dark-default">(I offer..)</p>
+                <h1 class="text-5xl font-bold mr-2 text-dark-default max-sm:text-3xl">Services</h1>
+                <p class="text-xl font-medium text-dark-default max-sm:text-base">(I offer..)</p>
             </div>
-            <div class="flex justify-around">
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
-                    <i class="fa-solid fa-display text-4xl mb-3"></i>
-                    <h2 class="text-dark-default font-semibold text-xl mb-3">Fullstack Web Dev</h2>
-                    <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
+            <div class="flex justify-around max-sm:flex-col">
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto max-sm:m-5 max-sm:p-4">
+                    <i class="fa-solid fa-display text-4xl mb-3 max-sm:text-2xl"></i>
+                    <h2 class="text-dark-default font-semibold text-xl mb-3 max-sm:text-base">Fullstack Web Dev</h2>
+                    <p class="text-dark-default text-lg text-center max-sm:text-sm">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
 
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
-                    <i class="fa-solid fa-mobile-screen text-4xl mb-3"></i>
-                    <h2 class="text-dark-default font-semibold text-xl mb-3">Front-end Mobile Dev</h2>
-                    <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto max-sm:m-5 max-sm:p-4">
+                    <i class="fa-solid fa-mobile-screen text-4xl mb-3 max-sm:text-2xl"></i>
+                    <h2 class="text-dark-default font-semibold text-xl mb-3 max-sm:text-base">Front-end Mobile Dev</h2>
+                    <p class="text-dark-default text-lg text-center max-sm:text-sm">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
 
-                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto">
-                    <i class="fa-brands fa-dev text-4xl mb-3"></i>
-                    <h2 class="text-dark-default font-semibold text-xl mb-3">DevOps Engineer</h2>
-                    <p class="text-dark-default text-lg text-center">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
+                <div class="flex flex-col items-center bg-yellow-default m-10 p-7 aspect-auto max-sm:m-5 max-sm:p-4">
+                    <i class="fa-brands fa-dev text-4xl mb-3 max-sm:text-2xl"></i>
+                    <h2 class="text-dark-default font-semibold text-xl mb-3 max-sm:text-base">DevOps Engineer</h2>
+                    <p class="text-dark-default text-lg text-center max-sm:text-sm">Lorem ipsum dolor sit amet consectetur. Diam vel dignissim mauris morbi justo mauris. Pellentesque suspendisse id neque enim amet massa nunc. Orci ac euismod quis senectus ut in.</p>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
                     <div class="bg-white-default p-5 rounded-lg">
                         <h2 class="text-xl font-semibold">Memo & Share</h2>
                         <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
-                        <a href="" class="text-sm">Cek Disini</a>
+                        <a href="" class="text-sm underline">Cek Disini</a>
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@
                     <div class="bg-white-default p-5 rounded-lg">
                         <h2 class="text-xl font-semibold">Memo & Share</h2>
                         <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
-                        <a href="" class="text-sm">Cek Disini</a>
+                        <a href="" class="text-sm underline">Cek Disini</a>
                     </div>
                 </div>
 
@@ -149,7 +149,7 @@
                     <div class="bg-white-default p-5 rounded-lg">
                         <h2 class="text-xl font-semibold">Memo & Share</h2>
                         <h3 class="text-sm">Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai</h3>
-                        <a href="" class="text-sm">Cek Disini</a>
+                        <a href="" class="text-sm underline">Cek Disini</a>
                     </div>
                 </div>
             </section>
@@ -157,6 +157,44 @@
         <!-- Devider -->
         <span class="w-full h-px bg-dark-default flex"></span>
 
+        <!-- My Contact -->
+        <div id="contact" class="px-20 py-10 mt-10 mb-10 w-full flex flex-col">
+            <div class="flex flex-col items-center">
+                <p class="text-dark-default text-xl font-semibold mb-1">get in touch</p>
+                <h1 class="text-dark-default text-5xl font-bold mb-10">Contact Me</h1>
+                <p class="text-dark-default text-xl mb-3">Kindly feel free to reach me out through email here</p>
+            </div>
+
+            <form action="" method="post" class="flex flex-col px-52 justify-center">
+                <input type="text" name="" id="" placeholder="Nama" class="border border-dark-default rounded-md p-1 mb-5">
+                <input type="text" name="" id="" placeholder="Email Address" class="border border-dark-default rounded-md p-1 mb-5">
+                <input type="text" name="" id="" placeholder="Subject" class="border border-dark-default rounded-md p-1 mb-5">
+                <textarea name="" id="" rows="8" placeholder="Your message" class="border border-dark-default rounded-md p-1 mb-5"></textarea>
+
+                <!-- Button -->
+                <div>
+                    <button type="submit" class="py-1 px-7 mr-5 rounded-lg bg-dark-default text-white-default">Send</button>
+                    <a href="footer" class="py-2 px-7 rounded-lg bg-white-default text-dark-default border border-dark-default">Other Contact</a>
+                </div>
+            </form>
+        </div>
     </div>
+
+    <footer class="flex px-20 py-24 w-full justify-between items-center bg-dark-default">
+        <div class="web-logo">
+            <a href="#home">
+                <img src="img/logo_dfr-removebg-preview 1.png" class="w-20 h-auto" alt="daffa farhan">
+            </a>
+        </div>
+
+        <div class="flex gap-8">
+            <a href="http://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-2xl text-white-default"></i></a>
+            <a href="https://twitter.com/burhannfr" target="_blank"><i class="fa-brands fa-twitter text-2xl text-white-default"></i></a>
+            <a href="http://www.facebook.com/daffa.farhanraharja" target="_blank"><i class="fa-brands fa-facebook-f text-2xl text-white-default"></i></a>
+            <a href="https://www.instagram.com/raharja.rar/" target="_blank"><i class="fa-brands fa-instagram text-2xl text-white-default"></i></a>
+        </div>
+
+        <p class="text-white-default">© 2023. All rights reserved</p>
+    </footer>
 </body>
 </html>
