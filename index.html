@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link rel="icon" href="page/img/logo_dfr-removebg-preview 2.png" type="image/icon">
     <link rel="stylesheet" href="page/style/output.css">
     <script src="https://kit.fontawesome.com/6e15cd6b88.js" crossorigin="anonymous"></script>
+    <title>Home</title>
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,28 +16,29 @@
 </head>
 
 <body class="bg-white-default box-border">
+    
     <header class="w-full sticky top-0 z-to-front bg-white-default shadow-md">
         <nav class="flex px-20 py-5 justify-between items-center max-sm:px-10 max-sm:py-3">
-            <div class="web-logo">
-                <a href="#home">
+            <div class="web-logo" id="section-link">
+                <a href="#home" id="section-link">
                     <img src="page/img/logo_dfr-removebg-preview 1.png" class="w-14 h-auto max-lg:w-12" alt="daffa farhan">
                 </a>
             </div>
             <ul class="flex gap-12 max-sm:hidden">
                 <li>
-                    <a href="#about-me" class="hover:underline text-dark-default">About Me</a>
+                    <a href="#about-me" id="section-link" class="hover:underline text-dark-default">About Me</a>
                 </li>
                 <li>
-                    <a href="#services" class="hover:underline text-dark-default">Services</a>
+                    <a href="#services" id="section-link" class="hover:underline text-dark-default">Services</a>
                 </li>
                 <!-- <li>
                     <a href="#" class="hover:underline text-dark-default">Experience</a>
                 </li> -->
                 <li>
-                    <a href="#mywork" class="hover:underline text-dark-default">My Work</a>
+                    <a href="#mywork" id="section-link" class="hover:underline text-dark-default">My Work</a>
                 </li>
             </ul>
-            <a href="#contact" class="bg-yellow-default py-2 px-5 rounded-full shadow-lg text-dark-default hover:bg-dark-default hover:text-yellow-default">Contact Me</a>
+            <a href="#contact" id="section-link" class="bg-yellow-default py-2 px-5 rounded-full shadow-lg text-dark-default hover:bg-dark-default hover:text-yellow-default">Contact Me</a>
         </nav>
     </header>
 
@@ -46,9 +47,9 @@
         <!-- Home -->
         <div id="home" class="px-20 py-10 mb-10 w-full h-full flex items-center justify-between max-sm:px-10 max-sm:py-0 max-sm:mt-3 max-sm:mb-3 max-md:flex-col-reverse">
             <section class="w-1/2 max-sm:w-full max-sm:mb-10">
-                <p class="text-dark-default text-base font-medium mb-9 max-sm:mb-5">Hello, I'm Daffa</p>
+                <p class="text-dark-default text-lg font-medium mb-9 max-sm:mb-5">Hello, I'm Daffa</p>
                 <h1 class="text-dark-default text-4xl font-medium mb-9 max-sm:mb-5 max-sm:text-3xl">A DevOps Engineer (aamiin soon) and Mechanical Keyboard Enthusiast</h1>
-                <p class="text-dark-default text-base font-medium mb-14 max-sm:mb-10">Kadang kuliah, kadang nonton bola</p>
+                <!-- <p class="text-dark-default text-base font-medium mb-14 max-sm:mb-10">Kadang kuliah, kadang nonton bola</p> -->
                 <a href="https://www.linkedin.com/" target="_blank" class="text-dark-default border-yellow-default border-2 leading-none p-3 rounded-full bg-yellow-default shadow-md font-normal">Find me on LinkedIn!</a>
             </section>
 
@@ -116,7 +117,7 @@
                 </a>
             </div>
 
-            <div class="flex justify-around max-sm:flex-col max-sm:items-center">
+            <div id="portfolio-data" class="flex justify-around max-sm:flex-col max-sm:items-center">
                 <div class="bg-white-default h-auto w-96 rounded-lg flex flex-col box-border border border-dark-default max-sm:mb-5 max-sm:w-72">
                     <div class="relative h-52 overflow-hidden w-full max-sm:h-auto">
                         <img src="page/img/Mockup - Memo & Share.jpg" alt="my project" class="overflow-hidden w-full rounded-lg">
@@ -193,5 +194,8 @@
 
         <p class="text-white-default">© 2023. All rights reserved</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="page/script/script.js"></script>
 </body>
 </html>
