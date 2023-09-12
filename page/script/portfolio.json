@@ -1,0 +1,31 @@
+{
+    "MyWork": [
+        {
+            "ProjectIMG": "#",
+            "ProjectName": "Memo & Share",
+            "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
+            "JobDesc": "Developing some front-end features,\n- Task List Section (Home)\n- Created Navbar",
+            "TechStack": "Flutter (Dart), Firebase",
+            "LinkGuthub": "#",
+            "LinkProduct": "#"
+        },
+        {
+            "ProjectIMG": "#",
+            "ProjectName": "Memo & Share",
+            "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
+            "JobDesc": "Developing some front-end features,\n- Task List Section (Home)\n- Created Navbar",
+            "TechStack": "Flutter (Dart), Firebase",
+            "LinkGuthub": "#",
+            "LinkProduct": "#"
+        },
+        {
+            "ProjectIMG": "#",
+            "ProjectName": "Memo & Share",
+            "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
+            "JobDesc": "Developing some front-end features: \n- Task List Section (Home)\n- Created Navbar",
+            "TechStack": "Flutter (Dart), Firebase",
+            "LinkGuthub": "#",
+            "LinkProduct": "#"
+        }
+    ]
+}
