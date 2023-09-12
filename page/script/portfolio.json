@@ -1,6 +1,7 @@
 {
     "MyWork": [
         {
+            "idProject": "1",
             "ProjectIMG": "#",
             "ProjectName": "Memo & Share",
             "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
@@ -10,6 +11,7 @@
             "LinkProduct": "#"
         },
         {
+            "idProject": "2",
             "ProjectIMG": "#",
             "ProjectName": "Memo & Share",
             "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
@@ -19,6 +21,7 @@
             "LinkProduct": "#"
         },
         {
+            "idProject": "3",
             "ProjectIMG": "#",
             "ProjectName": "Memo & Share",
             "Description": "Sebuah aplikasi yang memiliki fitur  dapat membuat memo atau menambahkan aktivitas ke dalam aplikasi sebagai pengingat lalu juga dapat membagikan foto dan komen hasil aktivitas yang telah selesai",
